@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FotoJeisson from "../assets/FotoJeisson.png";
+import FotoJeisson from "../assets/Fotojeisson.png";
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
