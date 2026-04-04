@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
 	return (
@@ -10,7 +11,7 @@ function App() {
 				<Header />
 				<div className="px-4">
 					<Hero />
-
+					<Projects />
 					<Experience />
 				</div>
 			</div>

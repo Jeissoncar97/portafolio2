@@ -23,7 +23,7 @@ const Header = () => {
 					<ul className="flex flex-col items-center overflow-hidden md:flex-row gap-x-10 mr-0 md:mr-4">
 						<li className="flex justify-center w-full first:mt-5 md:first:mt-0 md:block md:w-auto ">
 							<a
-								href="#proyectos"
+								href="#projects"
 								onClick={closeMenu}
 								className="flex text-lg items-center md:w-auto justify-center gap-2 md:px-4 md:py-2 hover:bg-gray-900 rounded-2xl border border-transparent hover:border-gray-700 transition-all min-h-12.5  px-5 py-4  duration-300 w-full"
 							>
