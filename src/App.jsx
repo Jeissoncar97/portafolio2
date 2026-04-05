@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -13,6 +15,8 @@ function App() {
 					<Hero />
 					<Projects />
 					<Experience />
+					<AboutMe />
+					<Footer />
 				</div>
 			</div>
 		</div>

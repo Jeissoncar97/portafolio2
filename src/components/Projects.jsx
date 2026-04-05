@@ -6,7 +6,7 @@ const Projects = () => {
 	return (
 		<section
 			id="projects"
-			className="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl pb-16 md:pb-36"
+			className="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl pb-16 md:pb-26"
 		>
 			<div>
 				<h2 className="text-3xl font-bold mb-4 flex items-center gap-2 py-4">
@@ -28,7 +28,7 @@ const Projects = () => {
 							<h3 className="text-2xl font-bold text-(--green-htb) mb-4">
 								Foro Hack the box
 							</h3>
-							<div className="mt-2 text-gray-700 dark:text-gray-400">
+							<div className="mt-2 text-gray-400">
 								Resolución de máquinas tipo CTF (Hack The Box) y
 								documentación de vulnerabilidades, explotación y
 								escalamiento de privilegios mediante writeups

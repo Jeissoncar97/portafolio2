@@ -2,6 +2,7 @@ import React from "react";
 import FotoJeisson from "../assets/Fotojeisson.png";
 import Mail from "../assets/icons/Mail";
 import Linkedin from "../assets/icons/Linkedin";
+import GitHubIcon from "../assets/icons/GitHubIcon";
 
 const Hero = () => {
 	return (
@@ -57,6 +58,15 @@ const Hero = () => {
 					>
 						<Linkedin />
 						LinkedIn
+					</a>
+					<a
+						className="inline-flex items-center justify-center gap-2 px-4 py-1 transition  border  rounded-full bg-gray-800 border-gray-600 text-white text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black-800"
+						href="https://github.com/Jeissoncar97 "
+						target="_blank"
+						rel="noopener"
+					>
+						<GitHubIcon />
+						GitHub
 					</a>
 				</nav>
 			</div>
