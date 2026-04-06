@@ -25,7 +25,7 @@ const Projects = () => {
 							</div>
 						</div>
 						<div className="w-full md:w-1/2 md:max-w-lg relative">
-							<h3 className="text-2xl font-bold text-(--green-htb) mb-4">
+							<h3 className="text-2xl font-bold text-(--green-htb) mb-2">
 								Foro Hack the box
 							</h3>
 							<div className="mt-2 text-gray-400">
@@ -38,7 +38,7 @@ const Projects = () => {
 								href="/blog"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="inline-flex items-center justify-center gap-2 px-4 py-1 transition  border  rounded-full bg-gray-800 border-gray-600 text-(--green-htb) text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black-800 absolute bottom-0 right-0 mb-4 mr-4"
+								className="inline-flex items-center justify-center gap-2 px-4 py-1 transition  border  rounded-full bg-gray-800 border-gray-600 text-(--green-htb) text-md hover:bg-gray-900 hover:border-gray-700 group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black-800 lg:absolute bottom-0 right-0 my-2"
 							>
 								Ir
 								<ArrowIcon />
