@@ -8,7 +8,7 @@ function BlogLayout() {
 			<HeaderBlog />
 
 			{/* 👇 contenido dinámico */}
-			<div className="p-4 max-w-7xl mx-auto">
+			<div className="mx-auto">
 				<Outlet />
 			</div>
 		</div>
