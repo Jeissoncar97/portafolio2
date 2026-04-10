@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 :root{
   --back-ground-primary:#121927;
   --border: #232c3c;
@@ -11,4 +12,13 @@
 
 body {
   font-family: "Onest", sans-serif;
+}
+.prose pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #020617; /* oscuro tipo hacker */
+}
+.prose pre {
+  overflow-x: auto;
 }
