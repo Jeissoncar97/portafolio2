@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { posts } from "../../Posts/posts";
 import rehypeHighlight from "rehype-highlight";
 import remarkGfm from "remark-gfm";
+import CodeBlock from "../CodeBlock";
 
 export default function Post() {
 	const { slug } = useParams();
@@ -12,14 +13,11 @@ export default function Post() {
 
 	return (
 		// Añadimos 'prose-headings:font-bold' y revisamos las clases
-		<div className="bg-slate-900 min-h-screen py-10">
+		<div className="min-h-screen py-10 bg-slate-900">
 			{" "}
 			{/* Contenedor de fondo para que luzca el prose-invert */}
 			<article
-				className="prose prose-invert prose-slate max-w-4xl mx-auto px-4 
-                          prose-headings:text-white prose-p:text-slate-300 
-                          prose-li:text-slate-300 prose-img:rounded-xl
-                          prose-h1:text-center"
+				className="max-w-4xl px-4 mx-auto prose prose-invert prose-slate prose-headings:text-white prose-p:text-slate-300 prose-li:text-slate-300 prose-img:rounded-xl prose-h1:text-center"
 			>
 				<ReactMarkdown
 					remarkPlugins={[remarkGfm]}
@@ -29,9 +27,10 @@ export default function Post() {
 							<img
 								src={src}
 								alt={alt}
-								className="rounded-xl mx-auto my-4 w-full max-w-2xl"
+								className="w-full max-w-2xl mx-auto my-4 rounded-xl"
 							/>
 						),
+						pre: CodeBlock,
 					}}
 				>
 					{content}
