@@ -4,7 +4,7 @@ import Profile from "../assets/image-foro/profile.webp";
 import bgHTB from "../assets/image-foro/bg-HTB.svg";
 import Machines from "../components/Machines";
 
-import Archetype from "../assets/image-foro/machines/archetype.png";
+import Archetype from "../assets/image-foro/machines/Archetype.png";
 
 function Blog() {
 	return (
